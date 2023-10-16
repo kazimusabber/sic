@@ -1,0 +1,36 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+// Font Variables
+$font-primary: var(--font-inter);
+$font-secondary: var(--font-manrope);
+$base-font-size: 1rem;
+$regular-font-weight: 400;
+$medium-font-weight: 500;
+$semiBold-font-weight: 600;
+$bold-font-weight: 700;
+$extbold-font-weight: 800;
+$base-letter-spacing: 0.5px;
+
+//Colors Variables
+$color-white: #fff;
+$color-black: #000;
+$color-gray: #e8e8e8;
+$color-primary: #0026ad;
+$color-secondary: #9785ff;
+$color-warning: #ffefb5;
+$color-blue: #004aff;
+
+$color-header: #060a11;
+$color-text: #404152;
+$color-text-light: #aaaab7;
+
+// Spacer Variables
+$base-padding: 1rem;
+$base-margin: 1rem;
+
+// Transition Variables
+$base-transition: all 0.3s ease-in-out;
+
+//Others Varibles
+$base-border-width: 1px;
+$base-border-radius: 8px;
