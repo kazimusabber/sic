@@ -26,7 +26,7 @@ const HeroOne = () => {
               >
                 <h1 className="">
                   👋 Hey there, <br />
-                  Welcome to SIC Technology
+                  Welcome to SIC IT Solution
                 </h1>
                 <p className="hero-two-desc">
                   We are providing the following services <br />

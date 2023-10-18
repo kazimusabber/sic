@@ -169,9 +169,9 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                 >
                   Home
-                  <CaretDown size={16} />
+                 {/* <CaretDown size={16} /> */}
                 </a>
-                <ul
+                {/* <ul
                   className={dropdown ? "dropdown-menu show" : "dropdown-menu"}
                 >
                   <li className="dropdown-megamenu-conatiner ">
@@ -193,26 +193,16 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
-                </ul>
+                </ul>*/}
               </li>
-              <li className="nav-item ">
+              <li className="nav-item" style={{width:"150px"}}>
                 <Link
                   className={`nav-link ${
-                    pathname === "/project" ? "active" : ""
+                    pathname === "/homepage-2" ? "" : ""
                   }`}
-                  href="/project"
+                  href="/homepage-2"
                 >
-                  Project
-                </Link>
-              </li>
-              <li className="nav-item ">
-                <Link className="nav-link" href="/">
-                  Behance
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/">
-                  Dribbble
+                  IT Solutions
                 </Link>
               </li>
               <li className="nav-item">

@@ -26,24 +26,14 @@ const page = ({ params }) => {
                 <div className="page-heading-content d-sm-flex justify-content-center justify-content-lg-start">
                   <div className="me-xxl-5 me-lg-8">
                     <div className="item">
-                      <span>Client</span>
-                      <span className="title">Fashion Blog</span>
-                    </div>
-                    <div className="item">
-                      <span>Time</span>
-                      <span className="title">25 Agu - 30 Sep 2021</span>
+                      <span>Company</span>
+                      <span className="title">{post.company}</span>
                     </div>
                   </div>
                   <div className="">
                     <div className="item">
-                      <span>Task</span>
+                      <span>Job Category</span>
                       <span className="title">{post.subtitle}</span>
-                    </div>
-                    <div className="item">
-                      <span>Work Link</span>
-                      <span className="title">
-                        <a href="#">Check the website</a>
-                      </span>
                     </div>
                   </div>
                 </div>
@@ -56,7 +46,7 @@ const page = ({ params }) => {
         <div className="col-lg-12">
           <div className="banner">
             <Image
-              src="/images/project/banner-1.png"
+              src={post.imgSrc}
               alt="Feature Image"
               height={600}
               width={1170}
@@ -69,119 +59,16 @@ const page = ({ params }) => {
           <div className="row">
             <div className="col-lg-10">
               <div className="project-desc-header">
-                <h3 className="">Brand Overview</h3>
+                <h3 className="mb-2">{post.joboverview}</h3>
                 <p className="">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  {post.joboverviewdecription}
                 </p>
               </div>
               <div className="project-desc-header">
-                <h3 className="">Project Goals</h3>
+                <h3 className="mb-2">{post.jobbenefit}</h3>
                 <p className="">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  {post.jobbenefitdescription}
                 </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-5 me-auto">
-              <div className="project-desc-content">
-                <h3>Problems</h3>
-                <ol className="list-styled">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  </li>
-                  <li>
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  </li>
-                  <li> ad minim veniam, quis nostrud exercitation ullamco </li>
-                  <li>
-                    dolor in reprehenderit in voluptate velit esse cillum dolore
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  </li>
-                  <li>
-                    proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.,
-                    <br />
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </li>
-                </ol>
-              </div>
-            </div>
-            <div className="col-lg-5">
-              <div className="project-desc-content">
-                <h3>Solutions</h3>
-                <ol className="list-styled">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  </li>
-                  <li>
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  </li>
-                  <li> ad minim veniam, quis nostrud exercitation ullamco </li>
-                  <li>
-                    dolor in reprehenderit in voluptate velit esse cillum dolore
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  </li>
-                  <li>
-                    proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.,
-                    <br />
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </li>
-                </ol>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="banner">
-                <Image
-                  src="/images/project/banner-1.png"
-                  alt="Feature Image"
-                  height={600}
-                  width={1170}
-                  className="mx-auto d-block"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-10">
-              <div className="project-desc-header">
-                <h3 className="">The Approach</h3>
-                <p className="">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-                <div className="pt-22">
-                  <Image
-                    src="/images/project/banner-2.png"
-                    alt="Feature Image"
-                    height={600}
-                    width={1170}
-                    className="mx-auto d-block"
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -192,16 +79,9 @@ const page = ({ params }) => {
           <div className="row">
             <div className="col-lg-10">
               <div className="section-header">
-                <h2>All Design</h2>
+                <h2 className="mb-2">{post.relatedProjectTitle}</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  {post.relatedProjectSubtitle}
                 </p>
               </div>
             </div>
@@ -210,9 +90,9 @@ const page = ({ params }) => {
             <div className="col-md-6">
               <div className="project-related-item">
                 <Image
-                  src="/images/project/project-7.png"
+                  src="/images/project/polandvisa.jpg"
                   alt="Feature Image"
-                  height={2722}
+                  height={570}
                   width={570}
                   className="mx-auto d-block w-100 h-100"
                 />
@@ -221,9 +101,33 @@ const page = ({ params }) => {
             <div className="col-md-6">
               <div className="project-related-item">
                 <Image
-                  src="/images/project/project-8.png"
+                  src="/images/project/lithuaniavisa.jpg"
                   alt="Feature Image"
-                  height={2722}
+                  height={570}
+                  width={570}
+                  className="mx-auto d-block w-100 h-100"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row mt-5">
+            <div className="col-md-6">
+              <div className="project-related-item">
+                <Image
+                  src="/images/project/saudivisa.jpg"
+                  alt="Feature Image"
+                  height={570}
+                  width={570}
+                  className="mx-auto d-block w-100 h-100"
+                />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="project-related-item">
+                <Image
+                  src="/images/project/dubaiworkvisa2.jpg"
+                  alt="Feature Image"
+                  height={570}
                   width={570}
                   className="mx-auto d-block w-100 h-100"
                 />

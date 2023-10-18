@@ -33,48 +33,91 @@ const page = () => {
             <div className="col-lg-12">
               <div className="card">
                 <div className="section-header">
-                  <h2>Experiences 💪</h2>
+                  <h2>Our Team 💪</h2>
                 </div>
                 <div className="card-body">
                   {/*==== Srart experiencEducation =====*/}
                   <div className="experiencEducation">
                     {/* Srart experience */}
-                    <div className="experience">
+                    <div className="experience" style={{width:"33%"}}>
                       <div className="title">
-                        <h5>Work Experience</h5>
+                        <h5>Analyst Team</h5>
                       </div>
                       <div className="content">
-                        <h4>Static Mania</h4>
+                        <h4>Md. Aminul Islam</h4>
                         <p>
-                          Lead Designer <br />
-                          August 2018 - December 2019
+                          Lead Data Analyst <br />
+                          August 2018 - Present
                         </p>
                       </div>
                       <div className="content">
-                        <h4>Exclusive Arts Organaization</h4>
+                        <h4>Faruk Khan</h4>
                         <p>
-                          Designer Officer <br />
-                          December 2019 - Current
+                          Sr. Software Engineer <br />
+                          December 2018 - Present
+                        </p>
+                      </div>
+                      <div className="content">
+                        <h4>Zaman Mantaka</h4>
+                        <p>
+                          Software Engineer <br />
+                          December 2018 - Present
+                        </p>
+                      </div>
+                      
+                    </div>
+                    {/* Srart education */}
+                    <div className="education" style={{width:"33%"}}>
+                      <div className="title">
+                        <h5>Development Team</h5>
+                      </div>
+                      <div className="content">
+                        <h4>Kazi Musabber Hossain</h4>
+                        <p>
+                          Sr. Software Developer <br />
+                          December 2018 - Present
+                        </p>
+                      </div>
+                      <div className="content">
+                        <h4>Farhad Hossain</h4>
+                        <p>
+                          Sr. Software Developer <br />
+                          December 2018 - Present
+                        </p>
+                      </div>
+                      <div className="content">
+                        <h4>Nahid Hasan</h4>
+                        <p>
+                          Software Tester <br />
+                          December 2018 - Present
                         </p>
                       </div>
                     </div>
+
                     {/* Srart education */}
-                    <div className="education">
+                    <div className="education" style={{width:"34%"}}>
                       <div className="title">
-                        <h5>Education</h5>
+                        <h5>Digital Marketing Team</h5>
                       </div>
                       <div className="content">
-                        <h4>Graphic Arts Institute</h4>
+                        <h4>Arefin Sajib</h4>
                         <p>
-                          MS • Information Design &amp; Technology <br />
-                          2016 – 2017
+                          SEO Specialist <br />
+                          December 2018 - Present
                         </p>
                       </div>
                       <div className="content">
-                        <h4>Florida Gulf Coast University</h4>
+                        <h4>Jaker Hossain</h4>
                         <p>
-                          BA • Psychology <br />
-                          2014 – 2015
+                          Sr. Graphics Designer <br />
+                          December 2018 - Present
+                        </p>
+                      </div>
+                      <div className="content">
+                        <h4>Farhana Prova</h4>
+                        <p>
+                          Marketing officer <br />
+                          December 2018 - Present
                         </p>
                       </div>
                     </div>
@@ -82,8 +125,8 @@ const page = () => {
                   {/* ==== End experiencEducation =====*/}
                   {/* ==== Srart freelance =====*/}
                   <div className="freelance">
-                    <div className="title">
-                      <h5>Freelance Clients</h5>
+                    <div className="title mt-7">
+                      <h2 style={{color:"#ffffff"}}>Our Clients</h2>
                     </div>
                     <div className="freelance-wrapper">
                       <div className="item">
@@ -147,10 +190,10 @@ const page = () => {
                       <div className="text-lg-start">
                         <div className="content mb-6 mb-lg-0">
                           <ul className="list-unstyled">
-                            <li>HTML, CSS</li>
-                            <li>Front-end Development</li>
-                            <li>Back-End Development</li>
-                            <li>Java Script, PHP</li>
+                            <li>HTML, CSS, Bootstrap, Java Script, React js, Vue js</li>
+                            <li>Python, Php</li>
+                            <li>Django, Laravel, Node js</li>
+                            <li> Adobe Photoshop, Figma, Adobe Illustrator, Canva</li>
                           </ul>
                         </div>
                       </div>
@@ -158,7 +201,7 @@ const page = () => {
                     {/* Start tools */}
                     <div className="tools">
                       <div className="title">
-                        <h5>Tools I use every day</h5>
+                        <h5>Tools we use every day</h5>
                       </div>
 
                       <div className="tools-wrapper">

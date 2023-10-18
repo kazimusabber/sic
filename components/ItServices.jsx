@@ -12,7 +12,7 @@ const ItServices = ({ limit = 6 }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="section-header">
+            <div className="section-header" style={{paddingTop:"2rem"}}>
               <h2>Provide Services 🛠</h2>
             </div>
           </div>
